@@ -15,6 +15,40 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/proyek', function () {
+    return view('welcome');
+});
+
+Route::get('/proyek/create', function () {
+    return view('welcome');
+});
+
+Route::post('/proyek', function () {
+    return view('welcome');
+});
+
+Route::get('/proyek/{id}/daftarkan-staff', function () {
+    return view('welcome');
+});
+
+Route::post('/proyek/{id}/daftarkan-staff', function () {
+    return view('welcome');
+});
+
+Route::get('/proyek/{id}/edit', function () {
+    return view('welcome');
+});
+
+Route::put('/proyek/{id}', function () {
+    return view('welcome');
+});
+
+Route::delete('/proyek/{id}', function () {
+    return view('welcome');
+});
+
+
+
 Route::get('/items/create', 'ItemController@create'); // menampilkan halaman form
 Route::post('/items', 'ItemController@store'); // menyimpan data
 Route::get('/items', 'ItemController@index'); // menampilkan semua
